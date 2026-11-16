@@ -1,29 +1,21 @@
 {
   "schema_version": 1,
-  "revision": 2,
+  "revision": 3,
   "sources": [
+    {
+      "id": "booksee",
+      "name": "Booksee",
+      "adapter": "booksee",
+      "url": "https://booksee.org/s/",
+      "language": "mul",
+      "enabled": true
+    },
     {
       "id": "standard_ebooks_new",
       "name": "Standard Ebooks",
       "adapter": "atom",
       "url": "https://standardebooks.org/feeds/atom/new-releases",
       "language": "en",
-      "enabled": true
-    },
-    {
-      "id": "wikisource_en",
-      "name": "Wikisource",
-      "adapter": "mediawiki",
-      "url": "https://en.wikisource.org/w/api.php",
-      "language": "en",
-      "enabled": false
-    },
-    {
-      "id": "wikisource_ru",
-      "name": "Викитека",
-      "adapter": "mediawiki",
-      "url": "https://ru.wikisource.org/w/api.php",
-      "language": "ru",
       "enabled": true
     },
     {
@@ -40,14 +32,6 @@
       "adapter": "opds",
       "url": "https://unglue.it/api/opds/epub/",
       "language": "mul",
-      "enabled": true
-    },
-    {
-      "id": "booksee",
-      "name": "Booksee",
-      "adapter": "booksee",
-      "url": "https://booksee.org/s/",
-      "language": "ru",
       "enabled": true
     }
   ]
