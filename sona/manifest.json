@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 1,
+  "revision": 2,
   "sources": [
     {
       "id": "standard_ebooks_new",
@@ -16,13 +16,37 @@
       "adapter": "mediawiki",
       "url": "https://en.wikisource.org/w/api.php",
       "language": "en",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "wikisource_ru",
       "name": "Викитека",
       "adapter": "mediawiki",
       "url": "https://ru.wikisource.org/w/api.php",
+      "language": "ru",
+      "enabled": true
+    },
+    {
+      "id": "gutenberg",
+      "name": "Project Gutenberg",
+      "adapter": "gutenberg",
+      "url": "https://gutenberg.pglaf.org/cache/epub/feeds/pg_catalog.csv.gz",
+      "language": "mul",
+      "enabled": true
+    },
+    {
+      "id": "unglue",
+      "name": "Unglue.it",
+      "adapter": "opds",
+      "url": "https://unglue.it/api/opds/epub/",
+      "language": "mul",
+      "enabled": true
+    },
+    {
+      "id": "booksee",
+      "name": "Booksee",
+      "adapter": "booksee",
+      "url": "https://booksee.org/s/",
       "language": "ru",
       "enabled": true
     }
