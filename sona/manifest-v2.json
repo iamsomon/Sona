@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "revision": 4,
+  "sources": [
+    {
+      "id": "booksee",
+      "name": "Booksee",
+      "adapter": "booksee",
+      "url": "https://booksee.org/s/",
+      "language": "mul",
+      "enabled": true
+    },
+    {
+      "id": "standard_ebooks_new",
+      "name": "Standard Ebooks",
+      "adapter": "atom",
+      "url": "https://standardebooks.org/feeds/atom/new-releases",
+      "language": "en",
+      "enabled": true
+    },
+    {
+      "id": "gutenberg",
+      "name": "Project Gutenberg",
+      "adapter": "gutenberg",
+      "url": "https://gutenberg.pglaf.org/cache/epub/feeds/pg_catalog.csv.gz",
+      "language": "mul",
+      "enabled": true
+    },
+    {
+      "id": "unglue",
+      "name": "Unglue.it",
+      "adapter": "opds",
+      "url": "https://unglue.it/api/opds/epub/",
+      "language": "mul",
+      "enabled": true
+    },
+    {
+      "id": "aozora_bunko",
+      "name": "Aozora Bunko",
+      "adapter": "aozora",
+      "url": "https://www.aozora.gr.jp/index_pages/list_person_all_extended_utf8.zip",
+      "language": "ja",
+      "enabled": true
+    },
+    {
+      "id": "internet_archive",
+      "name": "Internet Archive",
+      "adapter": "internetArchive",
+      "url": "https://archive.org/advancedsearch.php",
+      "language": "mul",
+      "enabled": true
+    }
+  ]
+}
